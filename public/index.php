@@ -49,7 +49,7 @@
 
 
 <script>
-    var socket = io('http://localhost:8087');
+    var socket = io('<?php echo $baseUrl; ?>');
 
     if(socket){
         $('#button').click(function(){
